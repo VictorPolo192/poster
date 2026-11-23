@@ -274,25 +274,14 @@ body.escala-lista .marco { opacity: 1; }
 
 .bola:focus-visible { outline: 3px solid var(--verde); outline-offset: 5px; }
 
-/* Logotipo de Planeta FP, sobre la pared */
-.logo-planeta {
-  position: absolute;
-  z-index: 4;
-  right: 48px;
-  top: 636px;
-  width: auto;
-  height: 40px;
-  pointer-events: none;
-}
-
 /* Mensaje del final */
 .aviso {
   position: absolute;
   z-index: 4;
   left: 48px;
-  right: 230px;
+  right: 48px;
   top: 640px;
-  text-align: left;
+  text-align: center;
   font-family: var(--display);
   font-style: italic;
   font-weight: 500;
@@ -312,8 +301,8 @@ body.escala-lista .marco { opacity: 1; }
   left: 0;
   right: 0;
   top: 690px;
-  bottom: 0;
-  padding: 40px 48px 42px;
+  bottom: 62px;
+  padding: 32px 48px 28px;
   display: grid;
   grid-template-columns: 318px 1fr;
   grid-template-rows: auto 1fr;
@@ -423,6 +412,25 @@ body.escala-lista .marco { opacity: 1; }
   font-size: 13px;
   font-weight: 500;
   color: rgba(245, 234, 213, .75);
+}
+
+/* Franja final: logotipo de Planeta FP sobre crema */
+.pie {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--crema);
+}
+.logo-planeta {
+  display: block;
+  width: auto;
+  height: 30px;
 }
 
 /* ---------- 6. COLABORA: etiqueta de regalo ---------- */
@@ -586,8 +594,8 @@ body.escala-lista .marco { opacity: 1; }
 .listo .fecha   { animation-delay: .5s; }
 .listo .mensaje { animation-delay: .65s; }
 .listo .accion  { animation-delay: .8s; }
-.logo-planeta { opacity: 0; transition: opacity 1s ease 1.4s; }
-.listo .logo-planeta { opacity: 1; }
+.pie { opacity: 0; transition: opacity 1s ease 1s; }
+.listo .pie { opacity: 1; }
 @keyframes subir {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: none; }
@@ -597,7 +605,7 @@ body.escala-lista .marco { opacity: 1; }
 .captura .adorno,
 .captura .bloque > *,
 .captura .sombra-adorno,
-.captura .logo-planeta,
+.captura .pie,
 .captura .marco { animation: none !important; opacity: 1 !important; transition: none !important; }
 
 /* ---------- 10. Accesibilidad: movimiento reducido ---------- */

@@ -14,7 +14,7 @@ Leídas en orden, las 13 bolas forman el principio de **«Noche de paz»**. Si e
 - **Mitad superior (pared crema)**: la guirnalda. Dos filas de adornos (REGALA / ILUSIÓN) colgados a distintas alturas, con tres colores y cuatro motivos (lisa, franjas, lunares, gajos).
 - **Mitad inferior (bloque rojo)**: la información. Un gran **21** en Bodoni cursiva dorada, *de diciembre*, la cita, el texto de la campaña y la marca.
 - **Llamada a la acción**: **COLABORA** es una **etiqueta de regalo** atada con un cordel. Se balancea al pasar el cursor y se da la vuelta para decir «¡Gracias!».
-- **Logotipo de Planeta FP** sobre la pared crema, abajo a la derecha (en negro y naranja se lee bien sobre crema; sobre el rojo se perdería).
+- **Logotipo de Planeta FP** en una franja crema al pie del cartel (en negro y naranja se lee bien sobre crema; sobre el rojo se perdería).
 - **Identidad**: identificación tipográfica «FUNDACIÓN ITACA». No se ha inventado ningún logotipo; ese bloque es el espacio reservado para el logotipo oficial.
 
 ### Paleta
